@@ -28,3 +28,4 @@ C:\RosaFoods\RosaFoods\RosaFoods\obj\Debug\net6.0\refint\RosaFoods.dll
 C:\RosaFoods\RosaFoods\RosaFoods\obj\Debug\net6.0\RosaFoods.pdb
 C:\RosaFoods\RosaFoods\RosaFoods\obj\Debug\net6.0\RosaFoods.genruntimeconfig.cache
 C:\RosaFoods\RosaFoods\RosaFoods\obj\Debug\net6.0\ref\RosaFoods.dll
+C:\RosaFoods\RosaFoods\RosaFoods\obj\Debug\net6.0\RosaFoods.sourcelink.json
