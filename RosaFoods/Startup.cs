@@ -1,5 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using RosaFoods.Context;
+using RosaFoods.Repositories.Interfaces;
+using RosaFoods.Repositories;
 
 namespace RosaFoods;
 
@@ -16,6 +18,11 @@ public class Startup
     public void ConfigureServices(IServiceCollection services)
     {
         services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+        //Registro de serviço para que toda vez que for solicitada uma instancia referenciando a interface, a injeçao de dependencia será feita no contrutor
+        services.AddTransient<ICategoriaRepository, CategoriaRepository>();
+        services.AddTransient<IPizzaRepository, PizzaRepository>();
+
         services.AddControllersWithViews();
     }
 
