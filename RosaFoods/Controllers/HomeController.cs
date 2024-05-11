@@ -9,6 +9,7 @@ namespace RosaFoods.Controllers
         
         public IActionResult Index()
         {
+            TempData["Nome"] = "Nigabeto";
             return View();
         }
 

@@ -1,0 +1,27 @@
+﻿@model IEnumerable<RosaFoods.Models.Pizza>
+
+<div>
+    <h2>Todas as pizzas</h2>
+    @* <h2>@ViewData["Titulo"]</h2> *@
+</div>
+@* <h2>@ViewData["Data"]</h2>
+<hr />
+<h3>@ViewBag.Total @ViewBag.TotalPizzas</h3>
+<hr />
+
+<h1>@TempData["Nome"]</h1> *@ @* Nigabeto *@
+
+<div class="container">
+    <div class="row">
+        @foreach (var pizza in Model)
+        {
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <p><img src="@pizza.ImagemUrl" class="img-fluid"></p>
+                <h3>Preço : @pizza.Preco.ToString("c")</h3>
+                <h4>@pizza.Nome</h4>
+                <p>@pizza.DescricaoCurta</p>
+            </div>
+
+        }
+    </div>
+</div>
