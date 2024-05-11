@@ -1,12 +1,105 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\RosaFoods\\RosaFoods\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{50AB1CA3-185A-4796-A9A1-D8A723036093}|RosaFoods\\RosaFoods.csproj|c:\\rosafoods\\rosafoods\\rosafoods\\views\\pizza\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50AB1CA3-185A-4796-A9A1-D8A723036093}|RosaFoods\\RosaFoods.csproj|solutionrelative:rosafoods\\views\\pizza\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50AB1CA3-185A-4796-A9A1-D8A723036093}|RosaFoods\\RosaFoods.csproj|c:\\rosafoods\\rosafoods\\rosafoods\\views\\shared\\_pizzasresumo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50AB1CA3-185A-4796-A9A1-D8A723036093}|RosaFoods\\RosaFoods.csproj|solutionrelative:rosafoods\\views\\shared\\_pizzasresumo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50AB1CA3-185A-4796-A9A1-D8A723036093}|RosaFoods\\RosaFoods.csproj|c:\\rosafoods\\rosafoods\\rosafoods\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50AB1CA3-185A-4796-A9A1-D8A723036093}|RosaFoods\\RosaFoods.csproj|solutionrelative:rosafoods\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50AB1CA3-185A-4796-A9A1-D8A723036093}|RosaFoods\\RosaFoods.csproj|c:\\rosafoods\\rosafoods\\rosafoods\\controllers\\pizzacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50AB1CA3-185A-4796-A9A1-D8A723036093}|RosaFoods\\RosaFoods.csproj|solutionrelative:rosafoods\\controllers\\pizzacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50AB1CA3-185A-4796-A9A1-D8A723036093}|RosaFoods\\RosaFoods.csproj|c:\\rosafoods\\rosafoods\\rosafoods\\viewmodels\\pizzalistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50AB1CA3-185A-4796-A9A1-D8A723036093}|RosaFoods\\RosaFoods.csproj|solutionrelative:rosafoods\\viewmodels\\pizzalistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_PizzasResumo.cshtml",
+              "DocumentMoniker": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\Views\\Shared\\_PizzasResumo.cshtml",
+              "RelativeDocumentMoniker": "RosaFoods\\Views\\Shared\\_PizzasResumo.cshtml",
+              "ToolTip": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\Views\\Shared\\_PizzasResumo.cshtml",
+              "RelativeToolTip": "RosaFoods\\Views\\Shared\\_PizzasResumo.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T23:20:07.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "RosaFoods\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "RosaFoods\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T22:57:30.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\Views\\Pizza\\List.cshtml",
+              "RelativeDocumentMoniker": "RosaFoods\\Views\\Pizza\\List.cshtml",
+              "ToolTip": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\Views\\Pizza\\List.cshtml",
+              "RelativeToolTip": "RosaFoods\\Views\\Pizza\\List.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T22:54:27.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PizzaController.cs",
+              "DocumentMoniker": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\Controllers\\PizzaController.cs",
+              "RelativeDocumentMoniker": "RosaFoods\\Controllers\\PizzaController.cs",
+              "ToolTip": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\Controllers\\PizzaController.cs",
+              "RelativeToolTip": "RosaFoods\\Controllers\\PizzaController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAB4AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T22:48:52.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PizzaListViewModel.cs",
+              "DocumentMoniker": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\ViewModels\\PizzaListViewModel.cs",
+              "RelativeDocumentMoniker": "RosaFoods\\ViewModels\\PizzaListViewModel.cs",
+              "ToolTip": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\ViewModels\\PizzaListViewModel.cs",
+              "RelativeToolTip": "RosaFoods\\ViewModels\\PizzaListViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T22:45:41.578Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

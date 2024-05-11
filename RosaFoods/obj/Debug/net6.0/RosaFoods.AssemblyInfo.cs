@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RosaFoods")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9967fe699ccf6c6c905b64ea06e79dd50bf484b4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48a0181c8de9ce375d66190a912487e052b180da")]
 [assembly: System.Reflection.AssemblyProductAttribute("RosaFoods")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RosaFoods")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
