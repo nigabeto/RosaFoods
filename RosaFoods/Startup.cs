@@ -2,6 +2,7 @@
 using RosaFoods.Context;
 using RosaFoods.Repositories.Interfaces;
 using RosaFoods.Repositories;
+using RosaFoods.Models;
 
 namespace RosaFoods;
 
@@ -23,6 +24,7 @@ public class Startup
         services.AddTransient<ICategoriaRepository, CategoriaRepository>();
         services.AddTransient<IPizzaRepository, PizzaRepository>();
         services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+        services.AddScoped(sp => CarrinhoCompra.GetCarrinho(sp));
 
         services.AddControllersWithViews();
 

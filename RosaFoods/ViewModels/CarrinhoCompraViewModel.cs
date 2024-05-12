@@ -1,0 +1,10 @@
+﻿using RosaFoods.Models;
+
+namespace RosaFoods.ViewModels
+{
+    public class CarrinhoCompraViewModel
+    {
+        public CarrinhoCompra CarrinhoCompra { get; set; }
+        public decimal CarrinhoCompraTotal { get; set; }
+    }
+}

@@ -85,15 +85,13 @@ namespace RosaFoods.Models
 
         public List<CarrinhoCompraItem> GetCarrinhoCompraItens()
         {
-            return CarrinhoCompraItems ??
-                   (CarrinhoCompraItems =
-                       _context.CarrinhoCompraItens
+            return CarrinhoCompraItems ?? (CarrinhoCompraItems = _context.CarrinhoCompraItens
                         .Where(c => c.CarrinhoCompraId == CarrinhoCompraId)
                         .Include(s => s.Pizza)
                         .ToList());
         }
 
-        public void LimparCarrinho()
+            public void LimparCarrinho()
         {
             var carrinhoItens = _context.CarrinhoCompraItens
                 .Where(carrinho => carrinho.CarrinhoCompraId == CarrinhoCompraId);

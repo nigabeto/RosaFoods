@@ -5,12 +5,20 @@
       "PackagePath": "staticwebassets\\RosaFoods.bundle.scp.css"
     },
     {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\Full-Cart-icon.png",
+      "PackagePath": "staticwebassets\\Images\\Full-Cart-icon.png"
+    },
+    {
       "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\bordas.jpg",
       "PackagePath": "staticwebassets\\Images\\bordas.jpg"
     },
     {
       "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\combo.jpeg",
       "PackagePath": "staticwebassets\\Images\\combo.jpeg"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\delete (1).png",
+      "PackagePath": "staticwebassets\\Images\\delete (1).png"
     },
     {
       "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\folha1.png",
@@ -51,6 +59,10 @@
     {
       "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\presunto.jpg",
       "PackagePath": "staticwebassets\\Images\\presunto.jpg"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\remove.ico",
+      "PackagePath": "staticwebassets\\Images\\remove.ico"
     },
     {
       "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\sucos.jpg",
