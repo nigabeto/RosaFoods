@@ -22,8 +22,12 @@ public class Startup
         //Registro de serviço para que toda vez que for solicitada uma instancia referenciando a interface, a injeçao de dependencia será feita no contrutor
         services.AddTransient<ICategoriaRepository, CategoriaRepository>();
         services.AddTransient<IPizzaRepository, PizzaRepository>();
+        services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
         services.AddControllersWithViews();
+
+        services.AddMemoryCache();
+        services.AddSession();
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -43,6 +47,7 @@ public class Startup
         app.UseStaticFiles();
 
         app.UseRouting();
+        app.UseSession();
 
         app.UseAuthorization();
 
