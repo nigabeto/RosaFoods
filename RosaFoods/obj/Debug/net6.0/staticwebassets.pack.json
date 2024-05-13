@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\Images\\bordas.jpg"
     },
     {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\cart-5-16.ico",
+      "PackagePath": "staticwebassets\\Images\\cart-5-16.ico"
+    },
+    {
       "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\combo.jpeg",
       "PackagePath": "staticwebassets\\Images\\combo.jpeg"
     },
