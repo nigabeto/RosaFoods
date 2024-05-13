@@ -5,8 +5,16 @@
       "PackagePath": "staticwebassets\\RosaFoods.bundle.scp.css"
     },
     {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\Envelope-icon24.png",
+      "PackagePath": "staticwebassets\\Images\\Envelope-icon24.png"
+    },
+    {
       "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\Full-Cart-icon.png",
       "PackagePath": "staticwebassets\\Images\\Full-Cart-icon.png"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\Home-iconred.png",
+      "PackagePath": "staticwebassets\\Images\\Home-iconred.png"
     },
     {
       "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\bordas.jpg",
@@ -25,6 +33,10 @@
       "PackagePath": "staticwebassets\\Images\\delete (1).png"
     },
     {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\faleconosco1.jpg",
+      "PackagePath": "staticwebassets\\Images\\faleconosco1.jpg"
+    },
+    {
       "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\folha1.png",
       "PackagePath": "staticwebassets\\Images\\folha1.png"
     },
@@ -39,6 +51,10 @@
     {
       "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\mussi.jpg",
       "PackagePath": "staticwebassets\\Images\\mussi.jpg"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\phone-app-icon.png",
+      "PackagePath": "staticwebassets\\Images\\phone-app-icon.png"
     },
     {
       "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\pizza-calabresa.jpg",
