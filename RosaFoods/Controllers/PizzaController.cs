@@ -1,4 +1,4 @@
-﻿    using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using RosaFoods.Models;
 using RosaFoods.Repositories.Interfaces;
 using RosaFoods.ViewModels;
@@ -26,18 +26,21 @@ namespace RosaFoods.Controllers
             }
             else
             {
-                if(string.Equals("Normal", categoria, StringComparison.OrdinalIgnoreCase))
-                {
-                    pizzas = _pizzaRepository.Pizzas
-                        .Where(p => p.Categoria.CategoriaNome.Equals("Normal"))
-                        .OrderBy(p => p.Nome);
-                }
-                else
-                {
-                    pizzas = _pizzaRepository.Pizzas
-                        .Where(p => p.Categoria.CategoriaNome.Equals("Doce"))
-                        .OrderBy(p => p.Nome);
-                }
+                //if(string.Equals("Normal", categoria, StringComparison.OrdinalIgnoreCase))
+                //{
+                //    pizzas = _pizzaRepository.Pizzas
+                //        .Where(p => p.Categoria.CategoriaNome.Equals("Normal"))
+                //        .OrderBy(p => p.Nome);
+                //}
+                //else
+                //{
+                //    pizzas = _pizzaRepository.Pizzas
+                //        .Where(p => p.Categoria.CategoriaNome.Equals("Doce"))
+                //        .OrderBy(p => p.Nome);
+                //}
+                pizzas = _pizzaRepository.Pizzas
+                          .Where(p => p.Categoria.CategoriaNome.Equals(categoria))
+                          .OrderBy(c => c.Nome);
                 categoriaAtual = categoria;
             }
 
@@ -50,6 +53,10 @@ namespace RosaFoods.Controllers
             return View(pizzasListViewModel);
         }
 
-
+        public IActionResult Details(int pizzaId)
+        {
+            var pizza = _pizzaRepository.Pizzas.FirstOrDefault(p => p.PizzaId == pizzaId);
+            return View(pizza);
+        }
     }
 }

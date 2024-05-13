@@ -2,7 +2,7 @@
 
 <div class="Container">
     <div class="row checkoutForm">
-        <img src="~/Images/Full-Cart-icon.png" />
+        <img src="~/Images/Full-Cart-icon.png" style="width: 58px; height: 48px;" /> @* Diminuir imagem *@
         <div>
             <h4> Seu carrinho de compras : </h4>
         </div>
@@ -10,46 +10,45 @@
         <table class="table table-bordered table-striped">
 
             <thead>
-                <tr>
-                    <th>Quantidade</th>
-                    <th>Pizza</th>
-                    <th class="text-right">Preço</th>
-                    <th class="text-right">Subtotal</th>
-                    <th></th>
-                </tr>
+            <tr>
+                <th>Quantidade</th>
+                <th>Pizza</th>
+                <th class="text-right">Preço</th>
+                <th class="text-right">Subtotal</th>
+                <th></th>
+            </tr>
             </thead>
 
             <tbody>
-                @foreach (var item in Model.CarrinhoCompra.CarrinhoCompraItems)
-                {
-                    <tr>
-                        <td class="text-center">@item.Quantidade</td>
-                        <td class="text-left">@item.Pizza.Nome</td>
-                        <td class="text-right">@item.Pizza.Preco.ToString("c")</td>
-
-                        <td class="text-right">
-                            @((item.Quantidade * item.Pizza.Preco).ToString("c"))
-                        </td>
-
-                        <td class="text-center">
-                            <a asp-controller="CarrinhoCompra" asp-action="RemoverItemDoCarrinhoCompra"
-                               asp-route-pizzaId="@item.Pizza.PizzaId">
-                                <img src="~/Images/delete (1).png" width="10px" height="10px" />
-                            </a>
-                        </td>
-                    </tr>
-                }
-            </tbody>
-            <tfoot>
+            @foreach (var item in Model.CarrinhoCompra.CarrinhoCompraItems)
+            {
                 <tr>
-                    <td colspan="3" class="text-right">Total:</td>
+                    <td class="text-center">@item.Quantidade</td>
+                    <td class="text-left">@item.Pizza.Nome</td>
+                    <td class="text-right">@item.Pizza.Preco.ToString("c")</td>
+
                     <td class="text-right">
-                        @Model.CarrinhoCompraTotal.ToString("c")
+                        @((item.Quantidade * item.Pizza.Preco).ToString("c"))
+                    </td>
+
+                    <td class="text-center">
+                        <a asp-controller="CarrinhoCompra" asp-action="RemoverItemDoCarrinhoCompra"
+                           asp-route-pizzaId="@item.Pizza.PizzaId">
+                            <img src="~/Images/delete (1).png" width="10px" height="10px" />
+                        </a>
                     </td>
                 </tr>
+            }
+            </tbody>
+            <tfoot>
+            <tr>
+                <td colspan="3" class="text-right">Total:</td>
+                <td class="text-right">
+                    @Model.CarrinhoCompraTotal.ToString("c")
+                </td>
+            </tr>
             </tfoot>
         </table>
-
 
         <div class="text-right">
             <div class="btn-group">
@@ -61,4 +60,3 @@
         <br />
     </div>
 </div>
-
