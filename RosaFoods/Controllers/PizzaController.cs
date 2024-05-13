@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿    using Microsoft.AspNetCore.Mvc;
+using RosaFoods.Models;
 using RosaFoods.Repositories.Interfaces;
 using RosaFoods.ViewModels;
 
@@ -13,22 +14,42 @@ namespace RosaFoods.Controllers
             _pizzaRepository = pizzaRepository;
         }
 
-        public IActionResult List()
+        public IActionResult List(string categoria)
         {
-            //ViewData["Titulo"] = "Todas as pizzas";
-            //ViewData["Data"] = DateTime.Now;
+            IEnumerable<Pizza> pizzas;
+            string categoriaAtual = string.Empty;
 
-            //var pizzas = _pizzaRepository.Pizzas;
-            //var totalPizzas = pizzas.Count();
+            if(string.IsNullOrEmpty(categoria))
+            {
+                pizzas = _pizzaRepository.Pizzas.OrderBy(p => p.PizzaId);
+                categoriaAtual = "Todas as pizzas";
+            }
+            else
+            {
+                if(string.Equals("Normal", categoria, StringComparison.OrdinalIgnoreCase))
+                {
+                    pizzas = _pizzaRepository.Pizzas
+                        .Where(p => p.Categoria.CategoriaNome.Equals("Normal"))
+                        .OrderBy(p => p.Nome);
+                }
+                else
+                {
+                    pizzas = _pizzaRepository.Pizzas
+                        .Where(p => p.Categoria.CategoriaNome.Equals("Doce"))
+                        .OrderBy(p => p.Nome);
+                }
+                categoriaAtual = categoria;
+            }
 
-            //ViewBag.Total = "Total de pizzas: ";
-            //ViewBag.TotalPizzas = totalPizzas;
+            var pizzasListViewModel = new PizzaListViewModel
+            {
+                Pizzas = pizzas,
+                CategoriaAtual = categoriaAtual
+            };
 
-            //return View(pizzas);
-            var pizzasListViewModel = new PizzaListViewModel();
-            pizzasListViewModel.Pizzas = _pizzaRepository.Pizzas;
-            pizzasListViewModel.CategoriaAtual = "Categoria atual";
             return View(pizzasListViewModel);
         }
+
+
     }
 }
