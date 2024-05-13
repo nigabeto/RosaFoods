@@ -70,6 +70,102 @@ namespace RosaFoods.Migrations
                     b.ToTable("Categorias");
                 });
 
+            modelBuilder.Entity("RosaFoods.Models.Pedido", b =>
+                {
+                    b.Property<int>("PedidoId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PedidoId"), 1L, 1);
+
+                    b.Property<string>("Cep")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
+
+                    b.Property<string>("Cidade")
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Endereco1")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Endereco2")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Estado")
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<DateTime?>("PedidoEntregueEm")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("PedidoEnviado")
+                        .HasColumnType("datetime2");
+
+                    b.Property<decimal>("PedidoTotal")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("Sobrenome")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Telefone")
+                        .IsRequired()
+                        .HasMaxLength(25)
+                        .HasColumnType("nvarchar(25)");
+
+                    b.Property<int>("TotalItensPedido")
+                        .HasColumnType("int");
+
+                    b.HasKey("PedidoId");
+
+                    b.ToTable("Pedidos");
+                });
+
+            modelBuilder.Entity("RosaFoods.Models.PedidoDetalhe", b =>
+                {
+                    b.Property<int>("PedidoDetalheId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PedidoDetalheId"), 1L, 1);
+
+                    b.Property<int>("PedidoId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PizzaId")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("Preco")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("Quantidade")
+                        .HasColumnType("int");
+
+                    b.HasKey("PedidoDetalheId");
+
+                    b.HasIndex("PedidoId");
+
+                    b.HasIndex("PizzaId");
+
+                    b.ToTable("PedidoDetalhes");
+                });
+
             modelBuilder.Entity("RosaFoods.Models.Pizza", b =>
                 {
                     b.Property<int>("PizzaId")
@@ -129,6 +225,25 @@ namespace RosaFoods.Migrations
                     b.Navigation("Pizza");
                 });
 
+            modelBuilder.Entity("RosaFoods.Models.PedidoDetalhe", b =>
+                {
+                    b.HasOne("RosaFoods.Models.Pedido", "Pedido")
+                        .WithMany("PedidoItens")
+                        .HasForeignKey("PedidoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("RosaFoods.Models.Pizza", "Pizza")
+                        .WithMany()
+                        .HasForeignKey("PizzaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Pedido");
+
+                    b.Navigation("Pizza");
+                });
+
             modelBuilder.Entity("RosaFoods.Models.Pizza", b =>
                 {
                     b.HasOne("RosaFoods.Models.Categoria", "Categoria")
@@ -143,6 +258,11 @@ namespace RosaFoods.Migrations
             modelBuilder.Entity("RosaFoods.Models.Categoria", b =>
                 {
                     b.Navigation("Pizzas");
+                });
+
+            modelBuilder.Entity("RosaFoods.Models.Pedido", b =>
+                {
+                    b.Navigation("PedidoItens");
                 });
 #pragma warning restore 612, 618
         }

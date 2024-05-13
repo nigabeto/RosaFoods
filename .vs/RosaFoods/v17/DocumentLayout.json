@@ -1,37 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\RosaFoods\\RosaFoods\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{50AB1CA3-185A-4796-A9A1-D8A723036093}|RosaFoods\\RosaFoods.csproj|c:\\rosafoods\\rosafoods\\rosafoods\\views\\carrinhocompra\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50AB1CA3-185A-4796-A9A1-D8A723036093}|RosaFoods\\RosaFoods.csproj|solutionrelative:rosafoods\\views\\carrinhocompra\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\Views\\CarrinhoCompra\\Index.cshtml",
-              "RelativeDocumentMoniker": "RosaFoods\\Views\\CarrinhoCompra\\Index.cshtml",
-              "ToolTip": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\Views\\CarrinhoCompra\\Index.cshtml",
-              "RelativeToolTip": "RosaFoods\\Views\\CarrinhoCompra\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-13T21:38:43.799Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
