@@ -41,6 +41,14 @@
       "PackagePath": "staticwebassets\\Images\\folha1.png"
     },
     {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\login2.jpeg",
+      "PackagePath": "staticwebassets\\Images\\login2.jpeg"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\login3.png",
+      "PackagePath": "staticwebassets\\Images\\login3.png"
+    },
+    {
       "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\logo_pizzaria.png",
       "PackagePath": "staticwebassets\\Images\\logo_pizzaria.png"
     },
@@ -83,6 +91,10 @@
     {
       "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\presunto.jpg",
       "PackagePath": "staticwebassets\\Images\\presunto.jpg"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\registro.png",
+      "PackagePath": "staticwebassets\\Images\\registro.png"
     },
     {
       "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\remove.ico",

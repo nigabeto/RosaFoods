@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using RosaFoods.Models;
 using RosaFoods.Repositories.Interfaces;
 using RosaFoods.ViewModels;
@@ -29,7 +30,7 @@ namespace RosaFoods.Controllers
 
             return View(carrinhoCompraVM);
         }
-
+        [Authorize]
         public IActionResult AdicionarItemNoCarrinhoCompra(int pizzaId)
         {
             var pizzaSelecionada = _pizzaRepository.Pizzas
@@ -41,7 +42,7 @@ namespace RosaFoods.Controllers
             }
             return RedirectToAction("Index");
         }
-
+        [Authorize]
         public IActionResult RemoverItemDoCarrinhoCompra(int pizzaId)
         {
             var pizzaSelecionada = _pizzaRepository.Pizzas

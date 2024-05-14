@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using RosaFoods.Context;
 using RosaFoods.Models;
 using RosaFoods.Repositories;
@@ -19,6 +20,19 @@ public class Startup
     public void ConfigureServices(IServiceCollection services)
     {
         services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+        services.AddIdentity<IdentityUser, IdentityRole>()
+             .AddEntityFrameworkStores<AppDbContext>()
+             .AddDefaultTokenProviders();
+
+        services.Configure<IdentityOptions>(options =>
+        {// Regras default para criaçao de senhas (alterar para produção)
+            options.Password.RequireDigit = false;   
+            options.Password.RequireLowercase = false;   
+            options.Password.RequireUppercase = false;   
+            options.Password.RequireNonAlphanumeric = false; 
+            options.Password.RequiredLength = 3;
+            options.Password.RequiredUniqueChars = 1;    
+        });
 
         //Registro de serviço para que toda vez que for solicitada uma instancia referenciando a interface, a injeçao de dependencia será feita no contrutor
         services.AddTransient<ICategoriaRepository, CategoriaRepository>();
@@ -51,7 +65,7 @@ public class Startup
 
         app.UseRouting();
         app.UseSession();
-
+        app.UseAuthentication();
         app.UseAuthorization();
 
         app.UseEndpoints(endpoints =>
