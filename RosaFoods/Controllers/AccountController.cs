@@ -70,6 +70,7 @@ namespace RosaFoods.Controllers
                 if(result.Succeeded)
                 {
                     //await _signInManager.SignInAsync(user, isPersistent: false);// Já faz o sign in e apresenta o formulario
+                    await _userManager.AddToRoleAsync(user, "Member");
                     return RedirectToAction("Login", "Account");
                 }
                 else

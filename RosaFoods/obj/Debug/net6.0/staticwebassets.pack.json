@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\Images\\delete (1).png"
     },
     {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\download.png",
+      "PackagePath": "staticwebassets\\Images\\download.png"
+    },
+    {
       "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\faleconosco1.jpg",
       "PackagePath": "staticwebassets\\Images\\faleconosco1.jpg"
     },

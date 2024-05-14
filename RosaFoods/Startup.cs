@@ -4,6 +4,7 @@ using RosaFoods.Context;
 using RosaFoods.Models;
 using RosaFoods.Repositories;
 using RosaFoods.Repositories.Interfaces;
+using RosaFoods.Services;
 
 namespace RosaFoods;
 
@@ -38,6 +39,17 @@ public class Startup
         services.AddTransient<ICategoriaRepository, CategoriaRepository>();
         services.AddTransient<IPedidoRepository, PedidoRepository>();
         services.AddTransient<IPizzaRepository, PizzaRepository>();
+
+        services.AddScoped<ISeedUserRoleInitial, SeedUserRoleInitial>(); 
+        services.AddAuthorization(options =>
+        {
+            options.AddPolicy("Admin",
+                politica =>
+                {
+                    politica.RequireRole("Admin");
+                });
+        });
+
         services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
         services.AddScoped(sp => CarrinhoCompra.GetCarrinho(sp));
 
@@ -48,7 +60,7 @@ public class Startup
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-    public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+    public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ISeedUserRoleInitial seedUserRoleInitial)
     {
         if (env.IsDevelopment())
         {
@@ -64,12 +76,21 @@ public class Startup
         app.UseStaticFiles();
 
         app.UseRouting();
+        //Criar os perfis primeiro
+        seedUserRoleInitial.SeedRoles();
+        //Depois criar os usuarios e atribuir ao perfil
+        seedUserRoleInitial.SeedUsers();    
+
         app.UseSession();
         app.UseAuthentication();
         app.UseAuthorization();
 
         app.UseEndpoints(endpoints =>
         {
+            endpoints.MapControllerRoute(
+            name : "areas",
+            pattern : "{area:exists}/{controller=Admin}/{action=Index}/{id?}");
+
             endpoints.MapControllerRoute(
                 name: "categoriaFiltro",
                 pattern: "Pizza/{action}/{categoria?}",
