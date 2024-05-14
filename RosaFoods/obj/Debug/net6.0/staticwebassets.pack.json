@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets\\Images\\folha1.png"
     },
     {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\logo_pizzaria.png",
+      "PackagePath": "staticwebassets\\Images\\logo_pizzaria.png"
+    },
+    {
       "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\marguerita.jpg",
       "PackagePath": "staticwebassets\\Images\\marguerita.jpg"
     },
