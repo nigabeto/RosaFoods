@@ -12,13 +12,13 @@ namespace RosaFoods.Repositories
         {
             _context = contexto;
         }
-        public IEnumerable<Pizza> Pizzas => _context.Pizzas.Include(c=>c.Categoria);
+        public IEnumerable<Pizza> Pizzas => _context.Pizzas.Include(c => c.Categoria);
 
-        public IEnumerable<Pizza> PizzaFavorita => _context.Pizzas.Where(l=>l.IsPizzaFavorita).Include(c=>c.Categoria);
+        public IEnumerable<Pizza> PizzaFavorita => _context.Pizzas.Where(l => l.IsPizzaFavorita).Include(c => c.Categoria);
 
         public Pizza GetPizzaById(int PizzaId)
         {
-            return _context.Pizzas.FirstOrDefault(l=>l.PizzaId == PizzaId);
+            return _context.Pizzas.FirstOrDefault(l => l.PizzaId == PizzaId);
         }
     }
 }

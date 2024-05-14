@@ -33,9 +33,9 @@ namespace RosaFoods.Controllers
         public IActionResult AdicionarItemNoCarrinhoCompra(int pizzaId)
         {
             var pizzaSelecionada = _pizzaRepository.Pizzas
-                                    .FirstOrDefault(p=> p.PizzaId == pizzaId); 
+                                    .FirstOrDefault(p => p.PizzaId == pizzaId);
 
-            if(pizzaSelecionada != null)
+            if (pizzaSelecionada != null)
             {
                 _carrinhoCompra.AdicionarAoCarrinho(pizzaSelecionada);
             }

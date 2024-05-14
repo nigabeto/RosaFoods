@@ -21,7 +21,7 @@ namespace RosaFoods.Migrations
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-             migrationBuilder.Sql("DELETE FROM Pizzas");
+            migrationBuilder.Sql("DELETE FROM Pizzas");
         }
     }
 }

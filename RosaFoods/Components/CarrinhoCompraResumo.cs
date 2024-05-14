@@ -32,13 +32,13 @@ namespace RosaFoods.Components
             return View(carrinhoCompraVM);
         }
 
-        
-            
-            
-            //public IViewComponentResult Invoke()
+
+
+
+        //public IViewComponentResult Invoke()
         //{
         //    //var itens = _carrinhoCompra.GetCarrinhoCompraItens();
-            
+
 
         //    var itens = new List<CarrinhoCompraItem>()
         //    {

@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using RosaFoods.Context;
-using RosaFoods.Repositories.Interfaces;
-using RosaFoods.Repositories;
 using RosaFoods.Models;
+using RosaFoods.Repositories;
+using RosaFoods.Repositories.Interfaces;
 
 namespace RosaFoods;
 
@@ -22,6 +22,7 @@ public class Startup
 
         //Registro de serviço para que toda vez que for solicitada uma instancia referenciando a interface, a injeçao de dependencia será feita no contrutor
         services.AddTransient<ICategoriaRepository, CategoriaRepository>();
+        services.AddTransient<IPedidoRepository, PedidoRepository>();
         services.AddTransient<IPizzaRepository, PizzaRepository>();
         services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
         services.AddScoped(sp => CarrinhoCompra.GetCarrinho(sp));

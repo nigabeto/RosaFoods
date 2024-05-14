@@ -19,7 +19,7 @@ namespace RosaFoods.Controllers
             IEnumerable<Pizza> pizzas;
             string categoriaAtual = string.Empty;
 
-            if(string.IsNullOrEmpty(categoria))
+            if (string.IsNullOrEmpty(categoria))
             {
                 pizzas = _pizzaRepository.Pizzas.OrderBy(p => p.PizzaId);
                 categoriaAtual = "Todas as pizzas";
@@ -57,6 +57,34 @@ namespace RosaFoods.Controllers
         {
             var pizza = _pizzaRepository.Pizzas.FirstOrDefault(p => p.PizzaId == pizzaId);
             return View(pizza);
+        }
+
+        public ViewResult Search(string searchString)
+        {
+            IEnumerable<Pizza> pizzas;
+            string categoriaAtual = string.Empty;
+
+            if (string.IsNullOrEmpty(searchString))
+            {
+                pizzas = _pizzaRepository.Pizzas.OrderBy(p => p.PizzaId);
+                categoriaAtual = "Todas as pizzas";
+            }
+            else
+            {
+                pizzas = _pizzaRepository.Pizzas
+                          .Where(p => p.Nome.ToLower().Contains(searchString.ToLower()));
+
+                if (pizzas.Any())
+                    categoriaAtual = "Pizzas";
+                else
+                    categoriaAtual = "Nenhum produto foi encontrado";
+            }
+
+            return View("~/Views/Pizza/List.cshtml", new PizzaListViewModel
+            {
+                Pizzas = pizzas,
+                CategoriaAtual = categoriaAtual
+            });
         }
     }
 }

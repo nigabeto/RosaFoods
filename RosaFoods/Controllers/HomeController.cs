@@ -15,13 +15,13 @@ namespace RosaFoods.Controllers
         {
             _pizzaRepository = pizzaRepository;
         }
-        
+
         public IActionResult Index()
         {
 
             var homeViewModel = new HomeViewModel
             {
-                PizzasFavoritas = _pizzaRepository.PizzaFavorita 
+                PizzasFavoritas = _pizzaRepository.PizzaFavorita
             };
 
             return View(homeViewModel);
