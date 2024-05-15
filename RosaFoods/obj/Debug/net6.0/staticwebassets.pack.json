@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\Images\\Home-iconred.png"
     },
     {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\acesso_negado.png",
+      "PackagePath": "staticwebassets\\Images\\acesso_negado.png"
+    },
+    {
       "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\bordas.jpg",
       "PackagePath": "staticwebassets\\Images\\bordas.jpg"
     },
