@@ -1,13 +1,27 @@
-﻿@model IEnumerable<RosaFoods.Models.Pedido>
+﻿
+@model ReflectionIT.Mvc.Paging.PagingList<RosaFoods.Models.Pedido>
 
 @{
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h3>Pedidos</h3>
+
+<form method="get" class="form-inline">
+
+    <input name="filter" class="form-control" placeholder="filtro"
+           value="@Model.RouteValue["Filter"]" />
+
+    <button type="submit" class="btn btn-info">Procurar</button>
+</form>
+
+Total de Pedidos : @Model.TotalRecordCount
+<div>
+    <vc:pager paging-list="@Model"></vc:pager>
+</div>
 
 <p>
-    <a asp-action="Create">Criar Novo</a>
+    @*<a asp-action="Create">Criar novo Pedido</a>*@
 </p>
 <table class="table">
     <thead>
@@ -88,7 +102,8 @@
                 <td>
                     <a asp-action="Edit" asp-route-id="@item.PedidoId">Editar</a> |
                     <a asp-action="Details" asp-route-id="@item.PedidoId">Detalhes</a> |
-                    <a asp-action="Delete" asp-route-id="@item.PedidoId">Deletar</a>
+                    <a asp-action="Delete" asp-route-id="@item.PedidoId">Deletar</a> |
+                    <a asp-action="PedidoPizzas" asp-route-id="@item.PedidoId">Ver Itens</a>
                 </td>
             </tr>
         }

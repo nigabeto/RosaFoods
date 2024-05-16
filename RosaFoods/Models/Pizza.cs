@@ -40,13 +40,14 @@ namespace RosaFoods.Models
         [StringLength(200, ErrorMessage = "O {0} deve ter no máximo {1} caracteres")]
         public string ImagemThumbnailUrl { get; set; }
 
-        [Display(Name = "Preferido?")]
+        [Display(Name = "Fovorita?")]
         public bool IsPizzaFavorita { get; set; }
 
         [Display(Name = "Estoque")]
         public bool EmEstoque { get; set; }
 
         //Propriedades de navegação:
+        [Display(Name = "Categorias")]
         public int CategoriaId { get; set; } /*Criando a chave estrangeira*/
         public virtual Categoria Categoria { get; set; } /*Definindo o relacionamento com a tabela Pizzas*/
     }
