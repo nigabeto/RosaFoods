@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using ReflectionIT.Mvc.Paging;
+using RosaFoods.Areas.Admin.Servicos;
 using RosaFoods.Context;
 using RosaFoods.Models;
 using RosaFoods.Repositories;
@@ -42,6 +43,8 @@ public class Startup
         services.AddTransient<IPizzaRepository, PizzaRepository>();
 
         services.AddScoped<ISeedUserRoleInitial, SeedUserRoleInitial>(); 
+        services.AddScoped<RelatorioVendasService>();
+
         services.AddAuthorization(options =>
         {
             options.AddPolicy("Admin",
