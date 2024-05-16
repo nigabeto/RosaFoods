@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets\\Images\\download.png"
     },
     {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\erro.png",
+      "PackagePath": "staticwebassets\\Images\\erro.png"
+    },
+    {
       "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\faleconosco1.jpg",
       "PackagePath": "staticwebassets\\Images\\faleconosco1.jpg"
     },
@@ -101,6 +105,14 @@
       "PackagePath": "staticwebassets\\Images\\presunto.jpg"
     },
     {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\produtos\\bebidas.jpg",
+      "PackagePath": "staticwebassets\\Images\\produtos\\bebidas.jpg"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\produtos\\coca.jpg",
+      "PackagePath": "staticwebassets\\Images\\produtos\\coca.jpg"
+    },
+    {
       "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\registro.png",
       "PackagePath": "staticwebassets\\Images\\registro.png"
     },
@@ -115,6 +127,14 @@
     {
       "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\torta_holandesa1.jpg",
       "PackagePath": "staticwebassets\\Images\\torta_holandesa1.jpg"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\upload.png",
+      "PackagePath": "staticwebassets\\Images\\upload.png"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\visualizar.png",
+      "PackagePath": "staticwebassets\\Images\\visualizar.png"
     },
     {
       "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\css\\site.css",
