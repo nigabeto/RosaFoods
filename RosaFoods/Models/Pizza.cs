@@ -10,18 +10,18 @@ namespace RosaFoods.Models
         public int PizzaId { get; set; }
 
         [Required(ErrorMessage = "O nome da pizza deve ser informado")]
-        [Display(Name = "Nome da pizza")]
+        [Display(Name = "Nome do produto")]
         [StringLength(80, MinimumLength = 10, ErrorMessage = "O {0} deve ter no mínimo {1} e no máximo {2} caracteres")]
         public string Nome { get; set; }
 
         [Required(ErrorMessage = "A descrição da pizza deve ser informada")]
-        [Display(Name = "Descrição da pizza")]
+        [Display(Name = "Descrição do produto")]
         [MinLength(20, ErrorMessage = "Descrição deve ter no mínimo {1} caracteres")]
         [MaxLength(200, ErrorMessage = "Descrição não pode exceder {1} caracteres")]
         public string DescricaoCurta { get; set; }
 
         [Required(ErrorMessage = "O descrição detalhada da pizza deve ser informada")]
-        [Display(Name = "Descrição detalhada da pizza")]
+        [Display(Name = "Descrição detalhada do produto")]
         [MinLength(20, ErrorMessage = "Descrição detalhada deve ter no mínimo {1} caracteres")]
         [MaxLength(200, ErrorMessage = "Descrição detalhada não pode exceder {1} caracteres")]
         public string DescricaoDetalhada { get; set; }

@@ -45,6 +45,7 @@ public class Startup
 
         services.AddScoped<ISeedUserRoleInitial, SeedUserRoleInitial>(); 
         services.AddScoped<RelatorioVendasService>();
+        services.AddScoped<GraficoVendasService>();
 
         services.AddAuthorization(options =>
         {

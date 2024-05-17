@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rCvFs5972tzrf8ttex5ozJHVVCKGxlOWes3B2wHSlGM=",
+  "Hash": "FpN5gqm6nBlbC6cKqc1Ql7JXQn4KkFhuS+ocRbiBN6s=",
   "Source": "RosaFoods",
   "BasePath": "_content/RosaFoods",
   "Mode": "Default",
@@ -281,6 +281,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\folha1.png"
+    },
+    {
+      "Identity": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\frutas.png",
+      "SourceId": "RosaFoods",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\",
+      "BasePath": "_content/RosaFoods",
+      "RelativePath": "Images/frutas.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\frutas.png"
     },
     {
       "Identity": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\Full-Cart-icon.png",
@@ -568,25 +587,6 @@
       "OriginalItemSpec": "wwwroot\\Images\\presunto.jpg"
     },
     {
-      "Identity": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\produtos\\bebidas.jpg",
-      "SourceId": "RosaFoods",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\",
-      "BasePath": "_content/RosaFoods",
-      "RelativePath": "Images/produtos/bebidas.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\produtos\\bebidas.jpg"
-    },
-    {
       "Identity": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\produtos\\coca.jpg",
       "SourceId": "RosaFoods",
       "SourceType": "Discovered",
@@ -604,6 +604,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\produtos\\coca.jpg"
+    },
+    {
+      "Identity": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\produtos\\pizza-mussarela.jpg",
+      "SourceId": "RosaFoods",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\",
+      "BasePath": "_content/RosaFoods",
+      "RelativePath": "Images/produtos/pizza-mussarela.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\produtos\\pizza-mussarela.jpg"
     },
     {
       "Identity": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\registro.png",
