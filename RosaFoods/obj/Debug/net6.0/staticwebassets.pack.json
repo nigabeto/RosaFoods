@@ -57,6 +57,10 @@
       "PackagePath": "staticwebassets\\Images\\frutas.png"
     },
     {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\holandesa.png",
+      "PackagePath": "staticwebassets\\Images\\holandesa.png"
+    },
+    {
       "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\login2.jpeg",
       "PackagePath": "staticwebassets\\Images\\login2.jpeg"
     },
@@ -113,8 +117,16 @@
       "PackagePath": "staticwebassets\\Images\\produtos\\coca.jpg"
     },
     {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\produtos\\holandesa.jpg",
+      "PackagePath": "staticwebassets\\Images\\produtos\\holandesa.jpg"
+    },
+    {
       "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\produtos\\pizza-mussarela.jpg",
       "PackagePath": "staticwebassets\\Images\\produtos\\pizza-mussarela.jpg"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\produtos\\ruculah.jpg",
+      "PackagePath": "staticwebassets\\Images\\produtos\\ruculah.jpg"
     },
     {
       "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\registro.png",
@@ -123,6 +135,10 @@
     {
       "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\remove.ico",
       "PackagePath": "staticwebassets\\Images\\remove.ico"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\rucula.jpg",
+      "PackagePath": "staticwebassets\\Images\\rucula.jpg"
     },
     {
       "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\sucos.jpg",

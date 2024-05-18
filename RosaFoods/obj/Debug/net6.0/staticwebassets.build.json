@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7JvgX/aKNwv3KlR4LgrcsPDtymINE+jR1Hg7230BtJA=",
+  "Hash": "KO/WHC0H1RTfLdsABZmER4LeCvkp18p0XbmfgchNIJQ=",
   "Source": "RosaFoods",
   "BasePath": "_content/RosaFoods",
   "Mode": "Default",
@@ -321,6 +321,25 @@
       "OriginalItemSpec": "wwwroot\\Images\\Full-Cart-icon.png"
     },
     {
+      "Identity": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\holandesa.png",
+      "SourceId": "RosaFoods",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\",
+      "BasePath": "_content/RosaFoods",
+      "RelativePath": "Images/holandesa.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\holandesa.png"
+    },
+    {
       "Identity": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\Home-iconred.png",
       "SourceId": "RosaFoods",
       "SourceType": "Discovered",
@@ -606,6 +625,25 @@
       "OriginalItemSpec": "wwwroot\\Images\\produtos\\coca.jpg"
     },
     {
+      "Identity": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\produtos\\holandesa.jpg",
+      "SourceId": "RosaFoods",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\",
+      "BasePath": "_content/RosaFoods",
+      "RelativePath": "Images/produtos/holandesa.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\produtos\\holandesa.jpg"
+    },
+    {
       "Identity": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\produtos\\pizza-mussarela.jpg",
       "SourceId": "RosaFoods",
       "SourceType": "Discovered",
@@ -623,6 +661,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\produtos\\pizza-mussarela.jpg"
+    },
+    {
+      "Identity": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\produtos\\ruculah.jpg",
+      "SourceId": "RosaFoods",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\",
+      "BasePath": "_content/RosaFoods",
+      "RelativePath": "Images/produtos/ruculah.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\produtos\\ruculah.jpg"
     },
     {
       "Identity": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\registro.png",
@@ -661,6 +718,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\remove.ico"
+    },
+    {
+      "Identity": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\rucula.jpg",
+      "SourceId": "RosaFoods",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\",
+      "BasePath": "_content/RosaFoods",
+      "RelativePath": "Images/rucula.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\rucula.jpg"
     },
     {
       "Identity": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\sucos.jpg",

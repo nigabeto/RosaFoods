@@ -52,6 +52,7 @@ namespace RosaFoods.Controllers
             return View(loginVM);
         }
 
+        [AllowAnonymous] //Correção que falta para exibir registro
         public IActionResult Register()
         {
             return View();
