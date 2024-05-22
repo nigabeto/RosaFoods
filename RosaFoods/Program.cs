@@ -90,6 +90,7 @@ CriarPerfisUsuarios(app);
         app.UseAuthentication();
         app.UseAuthorization();
 
+        #pragma warning disable ASP0014
         app.UseEndpoints(endpoints =>
         {
             endpoints.MapControllerRoute(
