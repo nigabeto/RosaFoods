@@ -26,4 +26,14 @@
     <Folder Include="wwwroot\Images\produtos\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Views\Account\Register.css" />
+    <None Remove="Views\Account\Register.js" />
+    <None Remove="Views\Account\RegisterValidation.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\js\CEP.js" />
+  </ItemGroup>
+
 </Project>

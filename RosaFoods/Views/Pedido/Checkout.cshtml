@@ -4,63 +4,62 @@
 <hr />
 <form asp-action="Checkout" method="post" class="form-horizontal" role="form">
     <div class="row">
-        <div class="form-group col-md-6">
-            <label asp-for="Nome" class="control-label"></label>
-            <input asp-for="Nome" class="form-control" />
-            <span asp-validation-for="Nome" class="text-danger"></span>
-        </div>
-
-        <div class="form-group col-md-6">
-            <label asp-for="Sobrenome" class="control-label"></label>
-            <input asp-for="Sobrenome" class="form-control" />
-            <span asp-validation-for="Sobrenome" class="text-danger"></span>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="form-group col-md-6">
-            <label asp-for="Endereco1" class="control-label"></label>
-            <input asp-for="Endereco1" class="form-control" />
-            <span asp-validation-for="Endereco1" class="text-danger"></span>
-        </div>
-
-        <div class="form-group col-md-6">
-            <label asp-for="Endereco2" class="control-label"></label>
-            <input asp-for="Endereco2" class="form-control" />
-            <span asp-validation-for="Endereco2" class="text-danger"></span>
-        </div>
-    </div>
-
-    <div class="row">
         <div class="form-group col-md-4">
-            <label asp-for="Cep" class="control-label"></label>
-            <input asp-for="Cep" class="form-control" />
+            <label asp-for="Cep" class="control-label" id="labelCep"></label>
+            <input asp-for="Cep" class="form-control" id="Cep" value="" onblur="pesquisacep(this.value);" onfocus="mostrarMensagemCep();" oninput="mudarCorLabel('labelCep')" />
             <span asp-validation-for="Cep" class="text-danger"></span>
         </div>
+        <div class="row">
+            <div class="form-group col-md-6">
+                <label asp-for="Endereco1" class="control-label" id="labelEndereco1"></label>
+                <input asp-for="Endereco1" class="form-control" id="Endereco1" oninput="mudarCorLabel('labelEndereco1')" />
+                <span asp-validation-for="Endereco1" class="text-danger"></span>
+            </div>
+
+            <div class="form-group col-md-6">
+                <label asp-for="Endereco2" class="control-label" id="labelEndereco2"></label>
+                <input asp-for="Endereco2" class="form-control" id="Endereco2" oninput="mudarCorLabel('labelEndereco2')" />
+                <span asp-validation-for="Endereco2" class="text-danger"></span>
+            </div>
+        </div>
 
         <div class="form-group col-md-4">
-            <label asp-for="Cidade" class="control-label"></label>
-            <input asp-for="Cidade" class="form-control" value="São Paulo" />
+            <label asp-for="Cidade" class="control-label" id="labelCidade"></label>
+            <input asp-for="Cidade" class="form-control" id="Cidade" oninput="mudarCorLabel('labelCidade')" />
             <span asp-validation-for="Cidade" class="text-danger"></span>
         </div>
 
         <div class="form-group col-md-4">
-            <label asp-for="Estado" class="control-label"></label>
-            <input asp-for="Estado" class="form-control" value="São Paulo" />
+            <label asp-for="Estado" class="control-label" id="labelEstado"></label>
+            <input asp-for="Estado" class="form-control" id="Estado" oninput="mudarCorLabel('labelEstado')" />
             <span asp-validation-for="Estado" class="text-danger"></span>
         </div>
     </div>
 
     <div class="row">
         <div class="form-group col-md-6">
-            <label asp-for="Telefone" class="control-label"></label>
-            <input asp-for="Telefone" class="form-control" />
+            <label asp-for="Nome" class="control-label" id="labelNome"></label>
+            <input asp-for="Nome" class="form-control" oninput="mudarCorLabel('labelNome')" />
+            <span asp-validation-for="Nome" class="text-danger"></span>
+        </div>
+
+        <div class="form-group col-md-6">
+            <label asp-for="Sobrenome" class="control-label" id="labelSobrenome"></label>
+            <input asp-for="Sobrenome" class="form-control" oninput="mudarCorLabel('labelSobrenome')" />
+            <span asp-validation-for="Sobrenome" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label asp-for="Telefone" class="control-label" id="labelTelefone"></label>
+            <input asp-for="Telefone" class="form-control" oninput="mudarCorLabel('labelTelefone')" />
             <span asp-validation-for="Telefone" class="text-danger"></span>
         </div>
 
         <div class="form-group col-md-6">
-            <label asp-for="Email" class="control-label"></label>
-            <input asp-for="Email" class="form-control" />
+            <label asp-for="Email" class="control-label" id="labelEmail"></label>
+            <input asp-for="Email" class="form-control" oninput="mudarCorLabel('labelEmail')" />
             <span asp-validation-for="Email" class="text-danger"></span>
         </div>
     </div>
@@ -77,3 +76,70 @@
     </div>
 </form>
 
+<!-- Adicionando Javascript -->
+<script>
+    // Função para mudar a cor de fundo da label para verde claro quando o campo é preenchido
+    function mudarCorLabel(labelId) {
+        var input = document.getElementById(labelId.replace('label', ''));
+        var label = document.getElementById(labelId);
+        if (input.value.trim() !== "") {
+            label.style.backgroundColor = "lightgreen";
+        } else {
+            label.style.backgroundColor = "";
+        }
+    }
+
+    // Função para exibir uma mensagem temporária no campo de CEP ao focar
+    function mostrarMensagemCep() {
+        var labelCep = document.getElementById("labelCep");
+        labelCep.innerHTML = "Insira o CEP para preenchimento do endereço";
+        labelCep.style.color = "blue";
+
+        setTimeout(function () {
+            labelCep.innerHTML = ""; // Limpa a mensagem após 5 segundos
+        }, 5000);
+    }
+
+    // Função para limpar o formulário de CEP
+    function limpa_formulario_cep() {
+        document.getElementById('Endereco1').value = "";
+        document.getElementById('Cidade').value = "";
+        document.getElementById('Estado').value = "";
+    }
+
+    // Função callback do CEP
+    function meu_callback(conteudo) {
+        if (!("erro" in conteudo)) {
+            document.getElementById('Endereco1').value = (conteudo.logradouro);
+            document.getElementById('Cidade').value = (conteudo.localidade);
+            document.getElementById('Estado').value = (conteudo.uf);
+        } else {
+            limpa_formulario_cep();
+            alert("CEP não encontrado.");
+        }
+    }
+
+    // Função para buscar o CEP
+    function pesquisacep(valor) {
+        var cep = valor.replace(/\D/g, '');
+
+        if (cep !== "") {
+            var validacep = /^[0-9]{8}$/;
+
+            if (validacep.test(cep)) {
+                document.getElementById('Endereco1').value = "...";
+                document.getElementById('Cidade').value = "...";
+                document.getElementById('Estado').value = "...";
+
+                var script = document.createElement('script');
+                script.src = 'https://viacep.com.br/ws/' + cep + '/json/?callback=meu_callback';
+                document.body.appendChild(script);
+            } else {
+                limpa_formulario_cep();
+                alert("Formato de CEP inválido.");
+            }
+        } else {
+            limpa_formulario_cep();
+        }
+    }
+</script>

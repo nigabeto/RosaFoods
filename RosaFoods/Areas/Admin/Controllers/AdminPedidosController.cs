@@ -48,7 +48,7 @@ namespace RosaFoods.Areas.Admin.Controllers
             //{
             //    return View(await _context.Pedidos.ToListAsync());
             //}
-            public async Task<IActionResult> Index(string filter, int pageindex = 1, string sort = "Nome")
+            public async Task<IActionResult> Index(string filter, int pageindex = 1, string sort = "-PedidoEnviado") // Para alterar a ordem decrescente da coluna desejada inserindo sinal "-"
         {
             var resultado = _context.Pedidos.AsNoTracking()
                                       .AsQueryable();
@@ -58,7 +58,7 @@ namespace RosaFoods.Areas.Admin.Controllers
                 resultado = resultado.Where(p => p.Nome.Contains(filter));
             }
 
-            var model = await PagingList.CreateAsync(resultado, 3, pageindex, sort, "Nome");
+            var model = await PagingList.CreateAsync(resultado, 5, pageindex, sort, "-PedidoEnviado");// Para alterar a ordem decrescente da coluna desejada inserindo sinal "-"
             model.RouteValue = new RouteValueDictionary { { "filter", filter } };
 
             return View(model);
