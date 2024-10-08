@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\RosaFoods\\RosaFoods\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{50AB1CA3-185A-4796-A9A1-D8A723036093}|RosaFoods\\RosaFoods.csproj|c:\\rosafoods\\rosafoods\\rosafoods\\views\\pedido\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50AB1CA3-185A-4796-A9A1-D8A723036093}|RosaFoods\\RosaFoods.csproj|solutionrelative:rosafoods\\views\\pedido\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{47288F53-4069-4504-A4A1-E582677B4B5B}|PedidoControllerTest\\PedidoControllerTest.csproj|c:\\rosafoods\\rosafoods\\pedidocontrollertest\\pedidocontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47288F53-4069-4504-A4A1-E582677B4B5B}|PedidoControllerTest\\PedidoControllerTest.csproj|solutionrelative:pedidocontrollertest\\pedidocontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50AB1CA3-185A-4796-A9A1-D8A723036093}|RosaFoods\\RosaFoods.csproj|c:\\rosafoods\\rosafoods\\rosafoods\\models\\carrinhocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50AB1CA3-185A-4796-A9A1-D8A723036093}|RosaFoods\\RosaFoods.csproj|solutionrelative:rosafoods\\models\\carrinhocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50AB1CA3-185A-4796-A9A1-D8A723036093}|RosaFoods\\RosaFoods.csproj|c:\\rosafoods\\rosafoods\\rosafoods\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50AB1CA3-185A-4796-A9A1-D8A723036093}|RosaFoods\\RosaFoods.csproj|solutionrelative:rosafoods\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50AB1CA3-185A-4796-A9A1-D8A723036093}|RosaFoods\\RosaFoods.csproj|c:\\rosafoods\\rosafoods\\rosafoods\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50AB1CA3-185A-4796-A9A1-D8A723036093}|RosaFoods\\RosaFoods.csproj|solutionrelative:rosafoods\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50AB1CA3-185A-4796-A9A1-D8A723036093}|RosaFoods\\RosaFoods.csproj|c:\\rosafoods\\rosafoods\\rosafoods\\controllers\\cepcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50AB1CA3-185A-4796-A9A1-D8A723036093}|RosaFoods\\RosaFoods.csproj|solutionrelative:rosafoods\\controllers\\cepcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50AB1CA3-185A-4796-A9A1-D8A723036093}|RosaFoods\\RosaFoods.csproj|c:\\rosafoods\\rosafoods\\rosafoods\\views\\pedido\\checkoutcompleto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50AB1CA3-185A-4796-A9A1-D8A723036093}|RosaFoods\\RosaFoods.csproj|solutionrelative:rosafoods\\views\\pedido\\checkoutcompleto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50AB1CA3-185A-4796-A9A1-D8A723036093}|RosaFoods\\RosaFoods.csproj|c:\\rosafoods\\rosafoods\\rosafoods\\views\\pedido\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50AB1CA3-185A-4796-A9A1-D8A723036093}|RosaFoods\\RosaFoods.csproj|solutionrelative:rosafoods\\views\\pedido\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,37 +34,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CepController.cs",
-              "DocumentMoniker": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\Controllers\\CepController.cs",
-              "RelativeDocumentMoniker": "RosaFoods\\Controllers\\CepController.cs",
-              "ToolTip": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\Controllers\\CepController.cs",
-              "RelativeToolTip": "RosaFoods\\Controllers\\CepController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "DocumentIndex": 0,
+              "Title": "PedidoControllerTest.cs",
+              "DocumentMoniker": "C:\\RosaFoods\\RosaFoods\\PedidoControllerTest\\PedidoControllerTest.cs",
+              "RelativeDocumentMoniker": "PedidoControllerTest\\PedidoControllerTest.cs",
+              "ToolTip": "C:\\RosaFoods\\RosaFoods\\PedidoControllerTest\\PedidoControllerTest.cs",
+              "RelativeToolTip": "PedidoControllerTest\\PedidoControllerTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T21:06:01.943Z",
+              "WhenOpened": "2024-10-07T20:41:59.486Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "CarrinhoCompra.cs",
+              "DocumentMoniker": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\Models\\CarrinhoCompra.cs",
+              "RelativeDocumentMoniker": "RosaFoods\\Models\\CarrinhoCompra.cs",
+              "ToolTip": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\Models\\CarrinhoCompra.cs",
+              "RelativeToolTip": "RosaFoods\\Models\\CarrinhoCompra.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T21:54:13.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PedidoController.cs",
+              "DocumentMoniker": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\Controllers\\PedidoController.cs",
+              "RelativeDocumentMoniker": "RosaFoods\\Controllers\\PedidoController.cs",
+              "ToolTip": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\Controllers\\PedidoController.cs",
+              "RelativeToolTip": "RosaFoods\\Controllers\\PedidoController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAAC8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T16:07:55.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Checkout.cshtml",
               "DocumentMoniker": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\Views\\Pedido\\Checkout.cshtml",
               "RelativeDocumentMoniker": "RosaFoods\\Views\\Pedido\\Checkout.cshtml",
               "ToolTip": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\Views\\Pedido\\Checkout.cshtml",
               "RelativeToolTip": "RosaFoods\\Views\\Pedido\\Checkout.cshtml",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAAAFMAAAA6AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFMAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-04T16:28:46.067Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "CheckoutCompleto.cshtml",
+              "DocumentMoniker": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\Views\\Pedido\\CheckoutCompleto.cshtml",
+              "RelativeDocumentMoniker": "RosaFoods\\Views\\Pedido\\CheckoutCompleto.cshtml",
+              "ToolTip": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\Views\\Pedido\\CheckoutCompleto.cshtml",
+              "RelativeToolTip": "RosaFoods\\Views\\Pedido\\CheckoutCompleto.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T16:32:23.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Pedido.cs",
               "DocumentMoniker": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\Models\\Pedido.cs",
               "RelativeDocumentMoniker": "RosaFoods\\Models\\Pedido.cs",

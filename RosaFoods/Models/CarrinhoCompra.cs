@@ -36,7 +36,7 @@ namespace RosaFoods.Models
             };
         }
 
-        public void AdicionarAoCarrinho(Pizza pizza)
+        public virtual void AdicionarAoCarrinho(Pizza pizza)
         {
             var carrinhoCompraItem = _context.CarrinhoCompraItens.SingleOrDefault(
                      s => s.Pizza.PizzaId == pizza.PizzaId &&
@@ -59,7 +59,7 @@ namespace RosaFoods.Models
             _context.SaveChanges();
         }
 
-        public int RemoverDoCarrinho(Pizza pizza)
+        public virtual int RemoverDoCarrinho(Pizza pizza)
         {
             var carrinhoCompraItem = _context.CarrinhoCompraItens.SingleOrDefault(
                    s => s.Pizza.PizzaId == pizza.PizzaId &&
@@ -83,7 +83,7 @@ namespace RosaFoods.Models
             return quantidadeLocal;
         }
 
-        public List<CarrinhoCompraItem> GetCarrinhoCompraItens()
+        public virtual List<CarrinhoCompraItem> GetCarrinhoCompraItens()
         {
             //return CarrinhoCompraItems ??
             //       (CarrinhoCompraItems =
@@ -106,7 +106,7 @@ namespace RosaFoods.Models
             }
         }
 
-        public void LimparCarrinho()
+        public virtual void LimparCarrinho()
         {
             var carrinhoItens = _context.CarrinhoCompraItens
                 .Where(carrinho => carrinho.CarrinhoCompraId == CarrinhoCompraId);
@@ -115,7 +115,7 @@ namespace RosaFoods.Models
             _context.SaveChanges();
         }
 
-        public decimal GetCarrinhoCompraTotal()
+        public virtual decimal GetCarrinhoCompraTotal()
         {
             var total = _context.CarrinhoCompraItens
                         .Where(c => c.CarrinhoCompraId == CarrinhoCompraId)
