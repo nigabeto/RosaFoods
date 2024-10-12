@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "PedidoControllerTest\\PedidoControllerTest.cs",
               "ToolTip": "C:\\RosaFoods\\RosaFoods\\PedidoControllerTest\\PedidoControllerTest.cs",
               "RelativeToolTip": "PedidoControllerTest\\PedidoControllerTest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAkAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-07T20:41:59.486Z",
               "EditorCaption": ""
@@ -57,7 +57,7 @@
               "RelativeDocumentMoniker": "RosaFoods\\Models\\CarrinhoCompra.cs",
               "ToolTip": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\Models\\CarrinhoCompra.cs",
               "RelativeToolTip": "RosaFoods\\Models\\CarrinhoCompra.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAyAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-07T21:54:13.693Z",
               "EditorCaption": ""
@@ -72,8 +72,7 @@
               "RelativeToolTip": "RosaFoods\\Controllers\\PedidoController.cs",
               "ViewState": "AQIAAB0AAAAAAAAAAAAAAC8AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T16:07:55.121Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-06T16:07:55.121Z"
             },
             {
               "$type": "Document",
@@ -85,8 +84,7 @@
               "RelativeToolTip": "RosaFoods\\Views\\Pedido\\Checkout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAFMAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-04T16:28:46.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T16:28:46.067Z"
             },
             {
               "$type": "Document",
@@ -98,8 +96,7 @@
               "RelativeToolTip": "RosaFoods\\Views\\Pedido\\CheckoutCompleto.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-07T16:32:23.136Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-07T16:32:23.136Z"
             },
             {
               "$type": "Document",
@@ -111,8 +108,7 @@
               "RelativeToolTip": "RosaFoods\\Models\\Pedido.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T16:28:39.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T16:28:39.161Z"
             }
           ]
         }

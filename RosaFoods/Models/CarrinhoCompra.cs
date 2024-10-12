@@ -36,6 +36,7 @@ namespace RosaFoods.Models
             };
         }
 
+        // Tornar o método virtual para permitir mock com Moq
         public virtual void AdicionarAoCarrinho(Pizza pizza)
         {
             var carrinhoCompraItem = _context.CarrinhoCompraItens.SingleOrDefault(
@@ -59,6 +60,7 @@ namespace RosaFoods.Models
             _context.SaveChanges();
         }
 
+        // Tornar o método virtual para permitir mock com Moq
         public virtual int RemoverDoCarrinho(Pizza pizza)
         {
             var carrinhoCompraItem = _context.CarrinhoCompraItens.SingleOrDefault(
@@ -83,6 +85,7 @@ namespace RosaFoods.Models
             return quantidadeLocal;
         }
 
+        // Tornar o método virtual para permitir mock com Moq
         public virtual List<CarrinhoCompraItem> GetCarrinhoCompraItens()
         {
             //return CarrinhoCompraItems ??
@@ -106,6 +109,7 @@ namespace RosaFoods.Models
             }
         }
 
+        // Tornar o método virtual para permitir mock com Moq
         public virtual void LimparCarrinho()
         {
             var carrinhoItens = _context.CarrinhoCompraItens

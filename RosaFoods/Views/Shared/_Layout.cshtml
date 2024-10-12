@@ -7,57 +7,73 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/RosaFoods.styles.css" asp-append-version="true" />
+    
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/Images/logo_pizzaria.png" width="130" height="100"/>RosaFoods</a>
-                <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                <form class="navbar-form navbar-right" asp-controller="Pizza" asp-action="Search" method="get">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Procurar produto" name="searchString" value="@ViewData["searchString"]">
-                    </div>
-                </form>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    @await Component.InvokeAsync("CarrinhoCompraResumo")
-                    @await Component.InvokeAsync("CategoriaMenu")
-                    
-                    @* <a class="nav-link text-light" asp-area="" asp-controller="Pizza" asp-action="List">Pizzas</a> *@
-                    <a class="nav-link text-light" asp-area="" asp-controller="Contato" asp-action="Index">Contato</a>
-                    
-                    
-                    @await Html.PartialAsync("_LoginPartial")
-                    @if (User.IsInRole("Admin"))
-                    {
-                        <a class="nav-link text-light" asp-area="Admin" asp-controller="Admin" asp-action="Index">Admin</a>
-                    }
+<header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
+        <div class="container">
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/Images/logo_pizzaria.png" width="130" height="100"/>RosaFoods</a>
+            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+            <form class="navbar-form navbar-right" asp-controller="Pizza" asp-action="Search" method="get">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="voiceSearch" placeholder="Procurar produto" name="searchString" value="@ViewData["searchString"]" aria-label="Procurar produto por texto ou voz">
+                    @* Recurso para Voice Search descontinuado!!! *@
+                    @*<button type="button" id="voiceSearchButton" class="btn btn-light" aria-label="Pesquisar por voz">🎤</button>*@
                 </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+            </form>
 
-    @* <footer class="border-top footer text-muted">
+            <div class="accessibility-menu">
+                <button id="increaseFont" class="btn btn-dark" aria-label="Aumentar tamanho da fonte">A+</button>
+                <button id="decreaseFont" class="btn btn-dark" aria-label="Diminuir tamanho da fonte">A-</button>
+                <button id="highContrast" class="btn btn-dark" aria-label="Ativar/desativar alto contraste">Alto Contraste</button>
+            </div>
+                    
+                
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                
+                
+            <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                @await Component.InvokeAsync("CarrinhoCompraResumo")
+                @await Component.InvokeAsync("CategoriaMenu")
+                    
+                @* <a class="nav-link text-light" asp-area="" asp-controller="Pizza" asp-action="List">Pizzas</a> *@
+                <a class="nav-link text-light" asp-area="" asp-controller="Contato" asp-action="Index">Contato</a>
+                    
+                    
+                @await Html.PartialAsync("_LoginPartial")
+                @if (User.IsInRole("Admin"))
+                {
+                    <a class="nav-link text-light" asp-area="Admin" asp-controller="Admin" asp-action="Index">Admin</a>
+                }
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="container">
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+</div>
+
+@* <footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2024 - RosaFoods - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer> *@
 
-    <partial name="_Footer"/>
-
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+<partial name="_Footer"/>
+    
+<script src="~/js/font_contraste.js"></script>
+<script src="~/js/voice.js"></script>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+    
+    
+@await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
