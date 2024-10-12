@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAz9fWEdAZDUmbovsFopJh9gAAAAACAAAAAAAQZgAAAAEAACAAAABshyWHUHa7uFblvk1tto187aR9SB7pP7z3Z6iJHmtRTwAAAAAOgAAAAAIAACAAAAAq0Tr7GQYlknk6Y4So4K+5RU8ZU84FDtiJMahBkngz4iAAAABbDyynauDKuQ1DKuyGdX1W5ngoCA9bo1fXvXc+DbCB0EAAAAALGTUduZTUuHW/c0602Rdw/8d+QH0cxGxttbgSiwwlDZFloGpwYy6ZVFEPIDNNa7CDVV5NyFnqcLRNrhM25KjY</EncryptedPassword>
+    <History>True|2024-05-23T22:23:32.6867126Z;True|2024-05-23T19:20:31.6997380-03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=DESKTOP-IKHUP4M\sqlexpress%3bInitial Catalog=PizzasDatabase%3bIntegrated Security=True%3bTrustServerCertificate=True%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

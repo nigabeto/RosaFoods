@@ -1,0 +1,429 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RosaFoods.bundle.scp.css",
+      "PackagePath": "staticwebassets\\RosaFoods.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\Envelope-icon24.png",
+      "PackagePath": "staticwebassets\\Images\\Envelope-icon24.png"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\Full-Cart-icon.png",
+      "PackagePath": "staticwebassets\\Images\\Full-Cart-icon.png"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\Home-iconred.png",
+      "PackagePath": "staticwebassets\\Images\\Home-iconred.png"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\acesso_negado.png",
+      "PackagePath": "staticwebassets\\Images\\acesso_negado.png"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\bordas.jpg",
+      "PackagePath": "staticwebassets\\Images\\bordas.jpg"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\cart-5-16.ico",
+      "PackagePath": "staticwebassets\\Images\\cart-5-16.ico"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\combo.jpeg",
+      "PackagePath": "staticwebassets\\Images\\combo.jpeg"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\delete (1).png",
+      "PackagePath": "staticwebassets\\Images\\delete (1).png"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\download.png",
+      "PackagePath": "staticwebassets\\Images\\download.png"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\erro.png",
+      "PackagePath": "staticwebassets\\Images\\erro.png"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\faleconosco1.jpg",
+      "PackagePath": "staticwebassets\\Images\\faleconosco1.jpg"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\folha1.png",
+      "PackagePath": "staticwebassets\\Images\\folha1.png"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\frutas.png",
+      "PackagePath": "staticwebassets\\Images\\frutas.png"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\holandesa.png",
+      "PackagePath": "staticwebassets\\Images\\holandesa.png"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\login2.jpeg",
+      "PackagePath": "staticwebassets\\Images\\login2.jpeg"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\login3.png",
+      "PackagePath": "staticwebassets\\Images\\login3.png"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\logo_pizzaria.png",
+      "PackagePath": "staticwebassets\\Images\\logo_pizzaria.png"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\marguerita.jpg",
+      "PackagePath": "staticwebassets\\Images\\marguerita.jpg"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\morango.jpg",
+      "PackagePath": "staticwebassets\\Images\\morango.jpg"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\mussi.jpg",
+      "PackagePath": "staticwebassets\\Images\\mussi.jpg"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\phone-app-icon.png",
+      "PackagePath": "staticwebassets\\Images\\phone-app-icon.png"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\pizza-calabresa.jpg",
+      "PackagePath": "staticwebassets\\Images\\pizza-calabresa.jpg"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\pizza-mussarela.jpg",
+      "PackagePath": "staticwebassets\\Images\\pizza-mussarela.jpg"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\pizza-portuguesa.jpg",
+      "PackagePath": "staticwebassets\\Images\\pizza-portuguesa.jpg"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\pizza-rodape.png",
+      "PackagePath": "staticwebassets\\Images\\pizza-rodape.png"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\pizza_amor.jpeg",
+      "PackagePath": "staticwebassets\\Images\\pizza_amor.jpeg"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\presunto.jpg",
+      "PackagePath": "staticwebassets\\Images\\presunto.jpg"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\produtos\\coca.jpg",
+      "PackagePath": "staticwebassets\\Images\\produtos\\coca.jpg"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\produtos\\holandesa.jpg",
+      "PackagePath": "staticwebassets\\Images\\produtos\\holandesa.jpg"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\produtos\\images.jpg",
+      "PackagePath": "staticwebassets\\Images\\produtos\\images.jpg"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\produtos\\pizza-mussarela.jpg",
+      "PackagePath": "staticwebassets\\Images\\produtos\\pizza-mussarela.jpg"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\produtos\\ruculah.jpg",
+      "PackagePath": "staticwebassets\\Images\\produtos\\ruculah.jpg"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\registro.png",
+      "PackagePath": "staticwebassets\\Images\\registro.png"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\remove.ico",
+      "PackagePath": "staticwebassets\\Images\\remove.ico"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\rucula.jpg",
+      "PackagePath": "staticwebassets\\Images\\rucula.jpg"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\sucos.jpg",
+      "PackagePath": "staticwebassets\\Images\\sucos.jpg"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\torta_holandesa1.jpg",
+      "PackagePath": "staticwebassets\\Images\\torta_holandesa1.jpg"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\upload.png",
+      "PackagePath": "staticwebassets\\Images\\upload.png"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\Images\\visualizar.png",
+      "PackagePath": "staticwebassets\\Images\\visualizar.png"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\js\\font_contraste.js",
+      "PackagePath": "staticwebassets\\js\\font_contraste.js"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\js\\voice.js",
+      "PackagePath": "staticwebassets\\js\\voice.js"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.RosaFoods.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.RosaFoods.props",
+      "PackagePath": "build\\RosaFoods.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.RosaFoods.props",
+      "PackagePath": "buildMultiTargeting\\RosaFoods.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.RosaFoods.props",
+      "PackagePath": "buildTransitive\\RosaFoods.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

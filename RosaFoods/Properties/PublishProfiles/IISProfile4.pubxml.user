@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAz9fWEdAZDUmbovsFopJh9gAAAAACAAAAAAAQZgAAAAEAACAAAACP7SIOzbrwxr3cyTMt7mdswR9nTVtKRuU+ZMoHx0H/VQAAAAAOgAAAAAIAACAAAAC/MU4Y5zgGRG8SEnQ/V2gGw2jkzUOI87lUvvnzHPjdbSAAAAC/3uTcbzKx9l1riU3by1LeG+Eod44gJnWsuE7yeADaT0AAAABisu89ZGbmbPIXLxhDrXL+UV2FXNmyxv86ZQNRoZLltug8vKdx2tkwRVQsKTbCNWWeyoXyDhRW0MPUVrZ5jH13</EncryptedPassword>
+    <History>True|2024-05-23T21:34:25.7620525Z;True|2024-05-23T18:31:34.8532506-03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=DESKTOP-IKHUP4M\sqlexpress%3bInitial Catalog=PizzasDatabase%3bIntegrated Security=True%3bTrustServerCertificate=True%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="RosaFoods.Context.AppDbContext">
+      <Value>Data Source=DESKTOP-IKHUP4M\sqlexpress%3bInitial Catalog=PizzasDatabase%3bIntegrated Security=True%3bTrustServerCertificate=True%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

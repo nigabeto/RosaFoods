@@ -1,0 +1,16 @@
+﻿.required-popup {
+    border: 1px solid red;
+    background-color: #ffcccc;
+}
+
+.correct {
+    border: 1px solid green;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.visible {
+    display: block;
+}
