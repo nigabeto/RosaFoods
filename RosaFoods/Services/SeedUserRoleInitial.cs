@@ -70,6 +70,25 @@ namespace RosaFoods.Services
                     _userManager.AddToRoleAsync(user, "Admin").Wait();
                 }
             }
+            
+            if (_userManager.FindByEmailAsync("joser").Result == null)
+            {
+                IdentityUser user = new IdentityUser();
+                user.UserName = "joser";
+                user.Email = "joser";
+                user.NormalizedUserName = "JOSER";
+                user.NormalizedEmail = "JOSER";
+                user.EmailConfirmed = true;
+                user.LockoutEnabled = false;
+                user.SecurityStamp = Guid.NewGuid().ToString();
+
+                IdentityResult result = _userManager.CreateAsync(user, "joser").Result;
+
+                if (result.Succeeded)
+                {
+                    _userManager.AddToRoleAsync(user, "Admin").Wait();
+                }
+            }
         }
     }
 }
