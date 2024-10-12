@@ -89,6 +89,24 @@ namespace RosaFoods.Services
                     _userManager.AddToRoleAsync(user, "Admin").Wait();
                 }
             }
+            if (_userManager.FindByEmailAsync("admin").Result == null)
+            {
+                IdentityUser user = new IdentityUser();
+                user.UserName = "admin";
+                user.Email = "admin";
+                user.NormalizedUserName = "ADMIN";
+                user.NormalizedEmail = "ADMIN";
+                user.EmailConfirmed = true;
+                user.LockoutEnabled = false;
+                user.SecurityStamp = Guid.NewGuid().ToString();
+
+                IdentityResult result = _userManager.CreateAsync(user, "pi2rosaf").Result;
+
+                if (result.Succeeded)
+                {
+                    _userManager.AddToRoleAsync(user, "Admin").Wait();
+                }
+            }
         }
     }
 }
