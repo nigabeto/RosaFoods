@@ -169,6 +169,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\js\\CepEndereco.js",
+      "PackagePath": "staticwebassets\\js\\CepEndereco.js"
+    },
+    {
       "Id": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\wwwroot\\js\\font_contraste.js",
       "PackagePath": "staticwebassets\\js\\font_contraste.js"
     },
