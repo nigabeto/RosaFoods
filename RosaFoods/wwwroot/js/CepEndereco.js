@@ -39,7 +39,7 @@ function meu_callback(conteudo) {
     }
 }
 
-// Função para buscar o CEP
+// Função para buscar o CEP utilizando API VIACEP
 function pesquisacep(valor) {
     var cep = valor.replace(/\D/g, '');
 
