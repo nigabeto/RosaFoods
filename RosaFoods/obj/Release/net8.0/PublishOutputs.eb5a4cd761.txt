@@ -339,6 +339,7 @@ C:\RosaFoods\RosaFoods\RosaFoods\obj\Release\net8.0\PubTmp\Out\Microsoft.DiaSymR
 C:\RosaFoods\RosaFoods\RosaFoods\obj\Release\net8.0\PubTmp\Out\Microsoft.DotNet.Scaffolding.Shared.dll
 C:\RosaFoods\RosaFoods\RosaFoods\obj\Release\net8.0\PubTmp\Out\Microsoft.EntityFrameworkCore.dll
 C:\RosaFoods\RosaFoods\RosaFoods\obj\Release\net8.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\RosaFoods\RosaFoods\RosaFoods\obj\Release\net8.0\PubTmp\Out\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\RosaFoods\RosaFoods\RosaFoods\obj\Release\net8.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Relational.dll
 C:\RosaFoods\RosaFoods\RosaFoods\obj\Release\net8.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Sqlite.dll
 C:\RosaFoods\RosaFoods\RosaFoods\obj\Release\net8.0\PubTmp\Out\Microsoft.EntityFrameworkCore.SqlServer.dll

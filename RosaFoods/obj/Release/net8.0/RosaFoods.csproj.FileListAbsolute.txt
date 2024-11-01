@@ -587,3 +587,4 @@ C:\RosaFoods\RosaFoods\RosaFoods\obj\Release\net8.0\refint\RosaFoods.dll
 C:\RosaFoods\RosaFoods\RosaFoods\obj\Release\net8.0\RosaFoods.pdb
 C:\RosaFoods\RosaFoods\RosaFoods\obj\Release\net8.0\RosaFoods.genruntimeconfig.cache
 C:\RosaFoods\RosaFoods\RosaFoods\obj\Release\net8.0\ref\RosaFoods.dll
+C:\RosaFoods\RosaFoods\RosaFoods\bin\Release\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
