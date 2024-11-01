@@ -10,9 +10,14 @@ using ReflectionIT.Mvc.Paging;
 using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
+
 var connection = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<AppDbContext>(options =>
            options.UseSqlServer(connection));
+
+//Opcionalmente poderia ser declarada da seguinte forma sem a variavel connection:
+//builder.Services.AddDbContext<AppDbContext>(options =>
+//           options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.Configure<IdentityOptions>(options =>
         {// Regras default para criaçao de senhas (alterar para produção)

@@ -3738,7 +3738,10 @@
           "ReflectionIT.Mvc.Paging": "8.0.0"
         },
         "runtime": {
-          "RosaFoods.dll": {}
+          "RosaFoods.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         },
         "compile": {
           "RosaFoods.dll": {}
