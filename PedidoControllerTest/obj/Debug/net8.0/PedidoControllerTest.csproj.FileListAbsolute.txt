@@ -7,7 +7,6 @@ C:\RosaFoods\RosaFoods\PedidoControllerTest\bin\Debug\net8.0\appsettings.json
 C:\RosaFoods\RosaFoods\PedidoControllerTest\bin\Debug\net8.0\RosaFoods.staticwebassets.runtime.json
 C:\RosaFoods\RosaFoods\PedidoControllerTest\bin\Debug\net8.0\RosaFoods.exe
 C:\RosaFoods\RosaFoods\PedidoControllerTest\bin\Debug\net8.0\testhost.exe
-C:\RosaFoods\RosaFoods\PedidoControllerTest\bin\Debug\net8.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\RosaFoods\RosaFoods\PedidoControllerTest\bin\Debug\net8.0\xunit.runner.reporters.netcoreapp10.dll
 C:\RosaFoods\RosaFoods\PedidoControllerTest\bin\Debug\net8.0\xunit.runner.utility.netcoreapp10.dll
 C:\RosaFoods\RosaFoods\PedidoControllerTest\bin\Debug\net8.0\PedidoControllerTest.deps.json
@@ -662,3 +661,10 @@ C:\RosaFoods\RosaFoods\PedidoControllerTest\obj\Debug\net8.0\PedidoControllerTes
 C:\RosaFoods\RosaFoods\PedidoControllerTest\obj\Debug\net8.0\PedidoControllerTest.genruntimeconfig.cache
 C:\RosaFoods\RosaFoods\PedidoControllerTest\obj\Debug\net8.0\ref\PedidoControllerTest.dll
 C:\RosaFoods\RosaFoods\PedidoControllerTest\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\RosaFoods\RosaFoods\PedidoControllerTest\bin\Debug\net8.0\.msCoverageSourceRootsMapping_PedidoControllerTest
+C:\RosaFoods\RosaFoods\PedidoControllerTest\bin\Debug\net8.0\xunit.runner.visualstudio.testadapter.dll
+C:\RosaFoods\RosaFoods\PedidoControllerTest\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\RosaFoods\RosaFoods\PedidoControllerTest\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\RosaFoods\RosaFoods\PedidoControllerTest\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\RosaFoods\RosaFoods\PedidoControllerTest\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\RosaFoods\RosaFoods\PedidoControllerTest\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
