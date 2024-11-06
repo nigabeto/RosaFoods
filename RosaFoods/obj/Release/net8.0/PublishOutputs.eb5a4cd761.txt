@@ -343,9 +343,14 @@ C:\RosaFoods\RosaFoods\RosaFoods\obj\Release\net8.0\PubTmp\Out\Microsoft.EntityF
 C:\RosaFoods\RosaFoods\RosaFoods\obj\Release\net8.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Relational.dll
 C:\RosaFoods\RosaFoods\RosaFoods\obj\Release\net8.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Sqlite.dll
 C:\RosaFoods\RosaFoods\RosaFoods\obj\Release\net8.0\PubTmp\Out\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\RosaFoods\RosaFoods\RosaFoods\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.Caching.Memory.dll
+C:\RosaFoods\RosaFoods\RosaFoods\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.DependencyInjection.dll
+C:\RosaFoods\RosaFoods\RosaFoods\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\RosaFoods\RosaFoods\RosaFoods\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.DependencyModel.dll
 C:\RosaFoods\RosaFoods\RosaFoods\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.Identity.Core.dll
 C:\RosaFoods\RosaFoods\RosaFoods\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.Identity.Stores.dll
+C:\RosaFoods\RosaFoods\RosaFoods\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.Logging.dll
+C:\RosaFoods\RosaFoods\RosaFoods\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.Logging.Abstractions.dll
 C:\RosaFoods\RosaFoods\RosaFoods\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.Options.dll
 C:\RosaFoods\RosaFoods\RosaFoods\obj\Release\net8.0\PubTmp\Out\Microsoft.Identity.Client.dll
 C:\RosaFoods\RosaFoods\RosaFoods\obj\Release\net8.0\PubTmp\Out\Microsoft.Identity.Client.Extensions.Msal.dll

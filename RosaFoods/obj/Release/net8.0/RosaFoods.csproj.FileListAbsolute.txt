@@ -588,3 +588,8 @@ C:\RosaFoods\RosaFoods\RosaFoods\obj\Release\net8.0\RosaFoods.pdb
 C:\RosaFoods\RosaFoods\RosaFoods\obj\Release\net8.0\RosaFoods.genruntimeconfig.cache
 C:\RosaFoods\RosaFoods\RosaFoods\obj\Release\net8.0\ref\RosaFoods.dll
 C:\RosaFoods\RosaFoods\RosaFoods\bin\Release\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\RosaFoods\RosaFoods\RosaFoods\bin\Release\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\RosaFoods\RosaFoods\RosaFoods\bin\Release\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\RosaFoods\RosaFoods\RosaFoods\bin\Release\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\RosaFoods\RosaFoods\RosaFoods\bin\Release\net8.0\Microsoft.Extensions.Logging.dll
+C:\RosaFoods\RosaFoods\RosaFoods\bin\Release\net8.0\Microsoft.Extensions.Logging.Abstractions.dll

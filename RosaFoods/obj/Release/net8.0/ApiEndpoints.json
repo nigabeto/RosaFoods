@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "RosaFoods.Controllers.CepController",
+    "Method": "GetCepInfo",
+    "RelativePath": "api/Cep/{cep}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cep",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
