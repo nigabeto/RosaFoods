@@ -24,13 +24,17 @@
             },
             success: function (data) {
                 GraficoVendasPizzas(data);
-                return false;
+                //return false;
             }
         });
         return false;
     }
     //preparar os dados obtidos
     function GraficoVendasPizzas(data) {
+        if (data.length === 0) {
+            document.getElementById('chart_div').innerHTML = "<p style='text-align:center; font-size:18px; color: #888;'>Não houve pedido nesse período!</p>";
+            return;
+        }
         var dataArray = [
             ['Pizza', 'Quantidade', 'Valores(R$)']
         ];

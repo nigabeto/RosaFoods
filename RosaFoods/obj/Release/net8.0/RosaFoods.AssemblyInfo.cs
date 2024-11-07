@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RosaFoods")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04455c4cfb357be2e73403ac008afa538c061033")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d33a1d09496dde73a4c88addf04c5b5dce5dd4d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("RosaFoods")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RosaFoods")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

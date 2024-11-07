@@ -81,9 +81,9 @@ namespace RosaFoods.Services
                 user.EmailConfirmed = true;
                 user.LockoutEnabled = false;
                 user.SecurityStamp = Guid.NewGuid().ToString();
-
+            
                 IdentityResult result = _userManager.CreateAsync(user, "joser").Result;
-
+            
                 if (result.Succeeded)
                 {
                     _userManager.AddToRoleAsync(user, "Admin").Wait();
@@ -99,9 +99,9 @@ namespace RosaFoods.Services
                 user.EmailConfirmed = true;
                 user.LockoutEnabled = false;
                 user.SecurityStamp = Guid.NewGuid().ToString();
-
+            
                 IdentityResult result = _userManager.CreateAsync(user, "pi2rosaf").Result;
-
+            
                 if (result.Succeeded)
                 {
                     _userManager.AddToRoleAsync(user, "Admin").Wait();
