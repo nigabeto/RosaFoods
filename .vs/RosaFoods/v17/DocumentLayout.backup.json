@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{50AB1CA3-185A-4796-A9A1-D8A723036093}|RosaFoods\\RosaFoods.csproj|solutionrelative:rosafoods\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{50AB1CA3-185A-4796-A9A1-D8A723036093}|RosaFoods\\RosaFoods.csproj|c:\\rosafoods\\rosafoods\\rosafoods\\services\\seeduserroleinitial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50AB1CA3-185A-4796-A9A1-D8A723036093}|RosaFoods\\RosaFoods.csproj|solutionrelative:rosafoods\\services\\seeduserroleinitial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{50AB1CA3-185A-4796-A9A1-D8A723036093}|RosaFoods\\RosaFoods.csproj|c:\\rosafoods\\rosafoods\\rosafoods\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50AB1CA3-185A-4796-A9A1-D8A723036093}|RosaFoods\\RosaFoods.csproj|solutionrelative:rosafoods\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50AB1CA3-185A-4796-A9A1-D8A723036093}|RosaFoods\\RosaFoods.csproj|c:\\rosafoods\\rosafoods\\rosafoods\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50AB1CA3-185A-4796-A9A1-D8A723036093}|RosaFoods\\RosaFoods.csproj|solutionrelative:rosafoods\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50AB1CA3-185A-4796-A9A1-D8A723036093}|RosaFoods\\RosaFoods.csproj|c:\\rosafoods\\rosafoods\\rosafoods\\services\\seeduserroleinitial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50AB1CA3-185A-4796-A9A1-D8A723036093}|RosaFoods\\RosaFoods.csproj|solutionrelative:rosafoods\\services\\seeduserroleinitial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50AB1CA3-185A-4796-A9A1-D8A723036093}|RosaFoods\\RosaFoods.csproj|c:\\rosafoods\\rosafoods\\rosafoods\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,19 +58,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "SeedUserRoleInitial.cs",
               "DocumentMoniker": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\Services\\SeedUserRoleInitial.cs",
               "RelativeDocumentMoniker": "RosaFoods\\Services\\SeedUserRoleInitial.cs",
               "ToolTip": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\Services\\SeedUserRoleInitial.cs",
               "RelativeToolTip": "RosaFoods\\Services\\SeedUserRoleInitial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T13:27:38.059Z"
+              "WhenOpened": "2024-11-01T13:27:38.059Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\Context\\AppDbContext.cs",
               "RelativeDocumentMoniker": "RosaFoods\\Context\\AppDbContext.cs",
@@ -88,14 +89,14 @@
               "RelativeDocumentMoniker": "RosaFoods\\appsettings.json",
               "ToolTip": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\appsettings.json",
               "RelativeToolTip": "RosaFoods\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-10-31T17:11:02.901Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\RosaFoods\\RosaFoods\\RosaFoods\\Program.cs",
               "RelativeDocumentMoniker": "RosaFoods\\Program.cs",
