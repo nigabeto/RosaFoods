@@ -2,7 +2,7 @@
   "dependencies": {
     "mssql1": {
       "restored": true,
-      "restoreTime": "2024-11-08T21:44:37.8429394Z"
+      "restoreTime": "2024-11-09T17:13:18.7780118Z"
     }
   },
   "parameters": {
@@ -14,7 +14,7 @@
     "mssql1.resourceGroupName": {
       "Name": "mssql1.resourceGroupName",
       "Type": "resourceGroup",
-      "Value": "Prj_Integrador_II"
+      "Value": "Projeto_Integrador_II"
     }
   }
 }

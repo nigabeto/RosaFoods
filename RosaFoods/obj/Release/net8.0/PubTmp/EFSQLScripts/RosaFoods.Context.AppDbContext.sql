@@ -62,7 +62,7 @@ IF NOT EXISTS (
 )
 BEGIN
     INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
-    VALUES (N'20240508222612_PrimeiraMigracao', N'8.0.5');
+    VALUES (N'20240508222612_PrimeiraMigracao', N'8.0.10');
 END;
 GO
 
@@ -96,7 +96,7 @@ IF NOT EXISTS (
 )
 BEGIN
     INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
-    VALUES (N'20240509121017_PopularCategorias', N'8.0.5');
+    VALUES (N'20240509121017_PopularCategorias', N'8.0.10');
 END;
 GO
 
@@ -148,7 +148,7 @@ IF NOT EXISTS (
 )
 BEGIN
     INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
-    VALUES (N'20240509122458_PopularPizzas', N'8.0.5');
+    VALUES (N'20240509122458_PopularPizzas', N'8.0.10');
 END;
 GO
 
@@ -173,7 +173,7 @@ IF NOT EXISTS (
 )
 BEGIN
     INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
-    VALUES (N'20240510222922_PopularPizzasTeste', N'8.0.5');
+    VALUES (N'20240510222922_PopularPizzasTeste', N'8.0.10');
 END;
 GO
 
@@ -198,7 +198,7 @@ IF NOT EXISTS (
 )
 BEGIN
     INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
-    VALUES (N'20240510224811_PopularPizzaTeste02', N'8.0.5');
+    VALUES (N'20240510224811_PopularPizzaTeste02', N'8.0.10');
 END;
 GO
 
@@ -223,7 +223,7 @@ IF NOT EXISTS (
 )
 BEGIN
     INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
-    VALUES (N'20240510230556_PopularPizzasTeste03', N'8.0.5');
+    VALUES (N'20240510230556_PopularPizzasTeste03', N'8.0.10');
 END;
 GO
 
@@ -248,7 +248,7 @@ IF NOT EXISTS (
 )
 BEGIN
     INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
-    VALUES (N'20240510233901_PopularPizza04', N'8.0.5');
+    VALUES (N'20240510233901_PopularPizza04', N'8.0.10');
 END;
 GO
 
@@ -289,7 +289,7 @@ IF NOT EXISTS (
 )
 BEGIN
     INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
-    VALUES (N'20240512163058_CarrinhoCompraItem', N'8.0.5');
+    VALUES (N'20240512163058_CarrinhoCompraItem', N'8.0.10');
 END;
 GO
 
@@ -366,7 +366,7 @@ IF NOT EXISTS (
 )
 BEGIN
     INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
-    VALUES (N'20240513225601_PedidoDetalhes', N'8.0.5');
+    VALUES (N'20240513225601_PedidoDetalhes', N'8.0.10');
 END;
 GO
 
@@ -565,7 +565,7 @@ IF NOT EXISTS (
 )
 BEGIN
     INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
-    VALUES (N'20240514160916_AdicionarIdentity', N'8.0.5');
+    VALUES (N'20240514160916_AdicionarIdentity', N'8.0.10');
 END;
 GO
 

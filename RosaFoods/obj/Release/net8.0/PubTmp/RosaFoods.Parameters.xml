@@ -3,4 +3,7 @@
   <parameter name="IIS Web Application Name" description="" value="rosafoods" tags="IisApp">
     <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\RosaFoods\\RosaFoods\\RosaFoods\\obj\\Release\\net8\.0\\PubTmp\\Out\\$" />
   </parameter>
+  <parameter name="RosaFoods.Context.AppDbContext" description="" value="Data Source=srvrosafoods.database.windows.net,1433;Initial Catalog=rosafoods;User ID=rosafoods;Password=Rosa&amp;1754" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\RosaFoods\\RosaFoods\\RosaFoods\\obj\\Release\\net8\.0\\PubTmp\\EFSQLScripts\\RosaFoods\.Context\.AppDbContext\.sql$" />
+  </parameter>
 </parameters>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PedidoControllerTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b773c225486d3e9ce38ccb44bfe4b65f88f7a89")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1fc3234da73c688c60fb7f4bc1c7c2b424ee9b68")]
 [assembly: System.Reflection.AssemblyProductAttribute("PedidoControllerTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PedidoControllerTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
