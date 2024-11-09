@@ -70,8 +70,11 @@ namespace PedidoControllerTest
             // Assert
             Assert.NotNull(result);
             var model = result.Model as Pedido;
-            Assert.Equal(3, model.TotalItensPedido); // 2 pizzas Marguerita + 1 Pepperoni
-            Assert.Equal(100.00m, model.PedidoTotal); // Total esperado
+            if (model != null)
+            {
+                Assert.Equal(3, model.TotalItensPedido); // 2 pizzas Marguerita + 1 Pepperoni
+                Assert.Equal(100.00m, model.PedidoTotal); // Total esperado
+            }
         }
     }
 }

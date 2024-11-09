@@ -71,42 +71,42 @@ namespace RosaFoods.Services
                 }
             }
             
-            if (_userManager.FindByEmailAsync("joser").Result == null)
-            {
-                IdentityUser user = new IdentityUser();
-                user.UserName = "joser";
-                user.Email = "joser";
-                user.NormalizedUserName = "JOSER";
-                user.NormalizedEmail = "JOSER";
-                user.EmailConfirmed = true;
-                user.LockoutEnabled = false;
-                user.SecurityStamp = Guid.NewGuid().ToString();
+            //if (_userManager.FindByEmailAsync("joser").Result == null)
+            //{
+            //    IdentityUser user = new IdentityUser();
+            //    user.UserName = "joser";
+            //    user.Email = "joser";
+            //    user.NormalizedUserName = "JOSER";
+            //    user.NormalizedEmail = "JOSER";
+            //    user.EmailConfirmed = true;
+            //    user.LockoutEnabled = false;
+            //    user.SecurityStamp = Guid.NewGuid().ToString();
             
-                IdentityResult result = _userManager.CreateAsync(user, "joser").Result;
+            //    IdentityResult result = _userManager.CreateAsync(user, "joser").Result;
             
-                if (result.Succeeded)
-                {
-                    _userManager.AddToRoleAsync(user, "Admin").Wait();
-                }
-            }
-            if (_userManager.FindByEmailAsync("admin").Result == null)
-            {
-                IdentityUser user = new IdentityUser();
-                user.UserName = "admin";
-                user.Email = "admin";
-                user.NormalizedUserName = "ADMIN";
-                user.NormalizedEmail = "ADMIN";
-                user.EmailConfirmed = true;
-                user.LockoutEnabled = false;
-                user.SecurityStamp = Guid.NewGuid().ToString();
+            //    if (result.Succeeded)
+            //    {
+            //        _userManager.AddToRoleAsync(user, "Admin").Wait();
+            //    }
+            //}
+            //if (_userManager.FindByEmailAsync("admin").Result == null)
+            //{
+            //    IdentityUser user = new IdentityUser();
+            //    user.UserName = "admin";
+            //    user.Email = "admin";
+            //    user.NormalizedUserName = "ADMIN";
+            //    user.NormalizedEmail = "ADMIN";
+            //    user.EmailConfirmed = true;
+            //    user.LockoutEnabled = false;
+            //    user.SecurityStamp = Guid.NewGuid().ToString();
             
-                IdentityResult result = _userManager.CreateAsync(user, "pi2rosaf").Result;
+            //    IdentityResult result = _userManager.CreateAsync(user, "pi2rosaf").Result;
             
-                if (result.Succeeded)
-                {
-                    _userManager.AddToRoleAsync(user, "Admin").Wait();
-                }
-            }
+            //    if (result.Succeeded)
+            //    {
+            //        _userManager.AddToRoleAsync(user, "Admin").Wait();
+            //    }
+            //}
         }
     }
 }
