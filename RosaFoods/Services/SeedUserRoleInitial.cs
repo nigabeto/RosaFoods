@@ -15,7 +15,7 @@ namespace RosaFoods.Services
 
         public void SeedRoles()
         {
-            if(!_roleManager.RoleExistsAsync("Member").Result)
+            if (!_roleManager.RoleExistsAsync("Member").Result)
             {
                 IdentityRole role = new IdentityRole();
                 role.Name = "Member";

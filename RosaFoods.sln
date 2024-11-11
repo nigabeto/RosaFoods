@@ -5,7 +5,7 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RosaFoods", "RosaFoods\RosaFoods.csproj", "{50AB1CA3-185A-4796-A9A1-D8A723036093}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PedidoControllerTest", "PedidoControllerTest\PedidoControllerTest.csproj", "{47288F53-4069-4504-A4A1-E582677B4B5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PedidoControllerTest", "PedidoControllerTest\PedidoControllerTest.csproj", "{47288F53-4069-4504-A4A1-E582677B4B5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,8 +19,7 @@ Global
 		{50AB1CA3-185A-4796-A9A1-D8A723036093}.Release|Any CPU.Build.0 = Release|Any CPU
 		{47288F53-4069-4504-A4A1-E582677B4B5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{47288F53-4069-4504-A4A1-E582677B4B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{47288F53-4069-4504-A4A1-E582677B4B5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{47288F53-4069-4504-A4A1-E582677B4B5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47288F53-4069-4504-A4A1-E582677B4B5B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

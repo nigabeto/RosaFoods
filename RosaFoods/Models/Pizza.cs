@@ -11,7 +11,7 @@ namespace RosaFoods.Models
 
         [Required(ErrorMessage = "O nome da pizza deve ser informado")]
         [Display(Name = "Nome do produto")]
-        [StringLength(80, MinimumLength = 10, ErrorMessage = "O {0} deve ter no mínimo {1} e no máximo {2} caracteres")]
+        [StringLength(80, MinimumLength = 4, ErrorMessage = "O {0} deve ter no mínimo {2} e no máximo {1} caracteres")]
         public string Nome { get; set; }
 
         [Required(ErrorMessage = "A descrição da pizza deve ser informada")]
